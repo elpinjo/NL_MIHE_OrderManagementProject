@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/elpinjo
   gitUsername: elpinjo
   gitBranch: main
+- name: OrderEntry
+  gitServerName: NL_MIHE_github
+  gitUrl: https://github.com/elpinjo
+  gitUsername: elpinjo
+  gitBranch: master
 services:
 - serviceName: project.nl_mihe_ordermanagement.documenttypes:Order
   packages:

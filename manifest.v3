@@ -7,17 +7,19 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="OrderEntry">2.1.1</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">4</value>
+  <value name="build">5</value>
   <null name="description"/>
   <value name="created_date">28-07-2025 09:34:47 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-07-28T09:37:50.218782274Z</value>
+  <value name="lastUpdated">2025-07-28T09:42:50.527101538Z</value>
   <value name="wmProjectId">fl3c4145d005826f3b415a67</value>
   <value name="creator">Misja Heuveling</value>
 </Values>
