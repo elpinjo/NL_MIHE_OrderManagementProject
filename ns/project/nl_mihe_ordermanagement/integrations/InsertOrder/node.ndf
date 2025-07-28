@@ -358,8 +358,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="lastModifiedBy">misja.heuveling@ibm.com</value>
-    <value name="lastModifiedDate">1753695395915</value>
+    <value name="lastModifiedBy">Misja.Heuveling@ibm.com</value>
+    <value name="lastModifiedDate">1753702112964</value>
     <value name="displayName">InsertOrder</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -386,28 +386,6 @@
         <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">PACKAGES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">OrderAnalytics</value>
-          <value name="groupName">OrderAnalytics;1.0</value>
-          <null name="services"/>
-        </record>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">order.analytics.flows:publishNewOrderEvent</value>
-          <value name="serviceName">order.analytics.flows:publishNewOrderEvent</value>
-          <value name="displayName">publishNewOrderEvent</value>
-        </record>
-        <null name="outputMapSet"/>
-        <null name="mapSet"/>
-        <number name="ui_step_index" type="Long">2</number>
-        <value name="nodePathNew">1</value>
-        <number name="nodeIndex" type="Long">1</number>
-        <number name="lineNumberForDebug" type="Long">2</number>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">1</value>
-      </record>
-      <record name="/2" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
         <number name="ui_step_index" type="Long">3</number>
@@ -426,20 +404,14 @@
         </array>
         <value name="nodePathForDebug">2</value>
       </record>
-      <record name="/2/0" javaclass="com.wm.util.Values">
+      <record name="/1/0" javaclass="com.wm.util.Values">
       </record>
-      <null name="/2/1"/>
+      <null name="/1/1"/>
     </record>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
-    </record>
-    <value name="createdDate">1753695395915</value>
   </record>
   <value name="svc_in_validator_options">none</value>
   <value name="svc_out_validator_options">none</value>
-  <value name="auditoption">0</value>
+  <value name="auditoption">2</value>
   <null name="auditfields_input"/>
   <null name="auditfields_output"/>
   <record name="auditsettings" javaclass="com.wm.util.Values">
