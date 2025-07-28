@@ -8,6 +8,7 @@ packages:
   gitUsername: elpinjo
   gitBranch: main
 - name: OrderEntry
+  version: 2.1.1
   gitServerName: NL_MIHE_github
   gitUrl: https://github.com/elpinjo
   gitUsername: elpinjo
@@ -17,14 +18,32 @@ services:
   packages:
   - name: NL_MIHE_OrderManagementProject
     version: "1.0"
+  - name: OrderEntry
+    version: 2.1.1
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.nl_mihe_ordermanagement.documenttypes:order
   packages:
   - name: NL_MIHE_OrderManagementProject
     version: "1.0"
+  - name: OrderEntry
+    version: 2.1.1
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.nl_mihe_ordermanagement.integrations:InsertOrder
   packages:
   - name: NL_MIHE_OrderManagementProject
     version: "1.0"
+  - name: OrderEntry
+    version: 2.1.1
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: orderentry.service:insertOrder
   packages:
   - name: OrderEntry
@@ -53,7 +72,3 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
-- serviceName: order.analytics.flows:publishNewOrderEvent
-  packages:
-  - name: NL_MIHE_OrderManagementProject
-    version: "1.0"
