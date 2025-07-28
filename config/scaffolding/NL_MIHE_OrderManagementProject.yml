@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: NL_MIHE_OrderManagementProject
+  gitServerName: NL_MIHE_github
+  gitUrl: https://github.com/elpinjo
+  gitUsername: elpinjo
+  gitBranch: main
