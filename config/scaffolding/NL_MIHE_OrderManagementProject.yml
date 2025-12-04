@@ -3,13 +3,12 @@ info:
   model: int-scaffold
 packages:
 - name: NL_MIHE_OrderManagementProject
-  gitServerName: NL_MIHE_github
+  gitServerName: NL_MIHE_GITHUB
   gitUrl: https://github.com/elpinjo
   gitUsername: elpinjo
   gitBranch: main
 - name: OrderEntry
-  version: 2.2.0
-  gitServerName: NL_MIHE_github
+  gitServerName: NL_MIHE_GITHUB
   gitUrl: https://github.com/elpinjo
   gitUsername: elpinjo
   gitBranch: master
