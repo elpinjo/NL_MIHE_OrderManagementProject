@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Values version="2.0">
-  <value name="enabled">yes</value>
+  <value name="enabled">no</value>
   <value name="system_package">no</value>
   <value name="version">1.0</value>
   <null name="startup_services"/>
@@ -13,14 +13,16 @@
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">17</value>
+  <value name="build">18</value>
   <null name="description"/>
   <value name="created_date">28-07-2025 09:34:47 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-12-04T09:58:42.013164672Z</value>
+  <value name="lastUpdated">2026-04-09T11:34:22.663562821Z</value>
   <value name="wmProjectId">fl3c4145d005826f3b415a67</value>
   <value name="creator">Misja Heuveling</value>
   <value name="name">NL_MIHE_OrderManagementProject</value>
+  <value name="lazy_load">yes</value>
+  <null name="lazy_load_node_types"/>
 </Values>

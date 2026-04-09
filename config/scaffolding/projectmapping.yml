@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: NL_MIHE_OrderManagementProject
+runtimes:
+- runtimeAlias: NL_MIHE_KubernetesTest
+  assets:
+  - name: Create opportunity and order
+    type: workflow
+    uid: fl7d9461f97d52a6d60dab25
+    stepId: a10
+    reference: project.nl_mihe_gitbased.integrations:InsertOrder
